@@ -1,4 +1,7 @@
-m=int(input("enter your desrire mass in kilogram: "))
-c=300000000
-E=m*c*c
-print(E)
+def main():
+    text = input("Please input a text with smile or frown emojis: ")
+    text = text.replace(":)", "🙂")
+    text = text.replace(":(", "🙁")
+    return text
+
+print(main()) 
