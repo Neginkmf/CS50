@@ -1,7 +1,3 @@
-def main():
-    text = input("please input a text with smile or frown emojies: ")
-    text = text.replace(":)", "🙂")
-    text = text.replace(":(", "🙁")
-    return text
-
-print(main()) 
+Name=input("please enter a sentense: ")
+Name_new=Name.replace(' ', '...')
+print(Name_new)
